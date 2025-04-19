@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ESNext",
+        "lib": ["dom", "es2020"],
+        "jsx": "react-jsx",
+        "jsxImportSource": "@emotion/react",
+        "declarationDir": "./build/dist/types",
+        "sourceMap": true,
+        "composite": true,
+        "noEmit": false,
+        "importHelpers": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noErrorTruncation": false,
+        "resolveJsonModule": true
+    },
+    "exclude": ["node_modules", ".vscode", "public", "**/*.test.ts*"],
+    "include": ["src/**/*.ts", "src/**/*.tsx", "*.d.ts", "src/**/*test.tsx"]
+}
